@@ -22,7 +22,15 @@ client.on('message', message => {
 
 });
 
- 
+ client.on('message', message => {
+8
+  if (message.content === 'spam', 'spam', 'Spam') {
+9
+    message.reply('hi');
+10
+  }
+11
+});
 
 // THIS  MUST  BE  THIS  WAY
 
